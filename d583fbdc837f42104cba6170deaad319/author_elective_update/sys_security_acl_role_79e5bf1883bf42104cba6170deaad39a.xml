@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 02:56:00</sys_created_on>
+        <sys_id>79e5bf1883bf42104cba6170deaad39a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_832171_lva_loaner_vehicle_catalog.lva_user</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_832171_lva">d583fbdc837f42104cba6170deaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">d583fbdc837f42104cba6170deaad319</sys_scope>
+        <sys_security_acl display_value="x_832171_lva_loaner_vehicle_catalog">b9e5bf1883bf42104cba6170deaad397</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_79e5bf1883bf42104cba6170deaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 22:15:28</sys_updated_on>
+        <sys_user_role display_value="lva_user" name="lva_user">4ce805c9837302104cba6170deaad395</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">d583fbdc837f42104cba6170deaad319</application>
+        <file_path/>
+        <instance_id>4d001fa91b82ce1419254089bd4bcbca</instance_id>
+        <instance_name>dev266501</instance_name>
+        <name>sys_security_acl_role_79e5bf1883bf42104cba6170deaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 02:56:00</sys_created_on><sys_id>79e5bf1883bf42104cba6170deaad39a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_832171_lva_loaner_vehicle_catalog.lva_user</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_832171_lva">d583fbdc837f42104cba6170deaad319</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">d583fbdc837f42104cba6170deaad319</sys_scope><sys_security_acl display_value="x_832171_lva_loaner_vehicle_catalog">b9e5bf1883bf42104cba6170deaad397</sys_security_acl><sys_update_name>sys_security_acl_role_79e5bf1883bf42104cba6170deaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 22:15:28</sys_updated_on><sys_user_role display_value="lva_user" name="lva_user">4ce805c9837302104cba6170deaad395</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1107865906</payload_hash>
+        <record_name>x_832171_lva_loaner_vehicle_catalog.lva_user</record_name>
+        <reverted_from/>
+        <source>6754bf9483bf42104cba6170deaad3ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 22:15:28</sys_created_on>
+        <sys_id>18e8050d837302104cba6170deaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191100328c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 22:15:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>10e8c10d147302109b2e9a3faa5dacfa</update_guid>
+        <update_guid_history>10e8c10d147302109b2e9a3faa5dacfa:-1107865906,4a5e37d0caff4210494bd8659232490b:-1454260813,7de5bf180cbf42102652c712d22df7a8:894355763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_832171_lva_loaner_vehicle_catalog.lva_user">2aa784bd8394d2104cba6170deaad3e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 21:57:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>05a3df2cd36148088c79f72ea3baae40</sys_id>
+        <sys_metadata>79e5bf1883bf42104cba6170deaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_832171_lva_loaner_vehicle_catalog.lva_user</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_832171_lva">d583fbdc837f42104cba6170deaad319</sys_package>
+        <sys_parent display_value="x_832171_lva_loaner_vehicle_catalog">b9e5bf1883bf42104cba6170deaad397</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">d583fbdc837f42104cba6170deaad319</sys_scope>
+        <sys_scope_delete display_value="">40ad69cdf7514a56b99f855fdf1bb999</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_79e5bf1883bf42104cba6170deaad39a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_79e5bf1883bf42104cba6170deaad39a">18e8050d837302104cba6170deaad313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 21:57:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

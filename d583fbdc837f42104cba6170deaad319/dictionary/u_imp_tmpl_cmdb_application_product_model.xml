@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="883487eb839812104cba6170deaad3c0" extends="sys_import_set_row" label="Imp Tmpl CMDB Application Product Model" max_length="40" name="u_imp_tmpl_cmdb_application_product_model" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="8000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="100" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Acceptance criteria" label="Acceptance criteria" max_length="615" name="u_acceptance_criteria" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Epic" label="Epic" max_length="40" name="u_epic" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Product" label="Product" max_length="40" name="u_product" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Theme" label="Theme" max_length="40" name="u_theme" type="string"/>
+    </element>
+</database>

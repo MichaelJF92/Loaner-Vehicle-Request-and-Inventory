@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_832171_lva_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_832171_lva_vehicle_tracker">vehicle_statusVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Vehicle tracker status story1</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var brandNew = current.vehicle_status;
+	var ngr = new GlideRecord ('x_832171_lva_loaner_vehicle_catalog');
+
+	ngr.addQuery('sys_id',current.vehicle);
+	ngr.query();
+
+	if (ngr.next()) {
+
+		if(brandNew == 'Pending Release' || brandNew == 'Out on Field' || brandNew == 'Returned for Inspection' || brandNew == 'Sent for Servicing'){
+			  //ngr.setValue('status','unavailable');
+			ngr.status = 'Unavailable';
+	}
+	else
+	if(brandNew == 'Returned to Warehouse'){
+			ngr.status = 'Available';
+			  //ngr.setValue('status', 'available');
+	}
+	else
+	if(brandNew == 'Decommissioned'){
+			ngr.status = 'Decommissioned';
+			  //ngr.setValue('status', 'decommissioned');
+	}
+		ngr.update();
+	
+	}
+
+})(current, previous);
+
+//1. Create a business rule on the Vehicle Tracker record that will set the status field of the VEHICLE on the Vehicle Tracker record.
+//* If the Vehicle Status on the Vehicle Tracker is Pending Release, Out on Field, Returned for Inspection or Sent for Servicing the status of the associated Vehicle should be Unavailable.
+//* If the Vehicle Status on the Vehicle Tracker is Returned to Warehouse, set the status field of the Vehicle to Available
+//* If the Vehicle Status on the Vehicle Tracker is Decommissioned, set the status field of the Vehicle to Decommissioned]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 23:14:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50425f6f83d812104cba6170deaad306</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Vehicle tracker status story1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_832171_lva">d583fbdc837f42104cba6170deaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">d583fbdc837f42104cba6170deaad319</sys_scope>
+        <sys_update_name>sys_script_50425f6f83d812104cba6170deaad306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 23:01:31</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=50425f6f83d812104cba6170deaad306"/>
+</record_update>

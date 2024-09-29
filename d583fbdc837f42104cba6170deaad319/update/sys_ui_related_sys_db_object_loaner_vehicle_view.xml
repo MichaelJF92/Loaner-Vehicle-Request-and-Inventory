@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_db_object" version="2" view="loaner_vehicle_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Loaner vehicle view" name="sys_db_object" related_list="NULL" sys_domain="global" view="e7c8a25d833f42104cba6170deaad384">d8f8a6dd833f42104cba6170deaad357</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:27900e83c3713000bac1addbdfba8fb6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 23:53:40</sys_created_on>
+            <sys_id>14f8a6dd833f42104cba6170deaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 23:53:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Loaner vehicle view" name="sys_db_object" related_list="NULL" sys_domain="global" view="e7c8a25d833f42104cba6170deaad384">d8f8a6dd833f42104cba6170deaad357</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:17a52313bf1030001875647fcf0739d4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 23:53:40</sys_created_on>
+            <sys_id>18f8a6dd833f42104cba6170deaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 23:53:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Loaner vehicle view" name="sys_db_object" related_list="NULL" sys_domain="global" view="e7c8a25d833f42104cba6170deaad384">d8f8a6dd833f42104cba6170deaad357</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>v_index_creator.table</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 23:53:40</sys_created_on>
+            <sys_id>1cf8a6dd833f42104cba6170deaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 23:53:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Loaner vehicle view" name="sys_db_object" related_list="NULL" sys_domain="global" view="e7c8a25d833f42104cba6170deaad384">d8f8a6dd833f42104cba6170deaad357</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:a81e90f153311200efd6cbaac2dc3451</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 23:53:40</sys_created_on>
+            <sys_id>10f8a6dd833f42104cba6170deaad359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 23:53:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Table - Loaner vehicle view</calculated_name>
+            <filter/>
+            <name>sys_db_object</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 23:53:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8f8a6dd833f42104cba6170deaad357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table - Loaner vehicle view</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_832171_lva">d583fbdc837f42104cba6170deaad319</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">d583fbdc837f42104cba6170deaad319</sys_scope>
+            <sys_update_name>sys_ui_related_sys_db_object_loaner_vehicle_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 23:53:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Loaner vehicle view" name="loaner_vehicle_view">e7c8a25d833f42104cba6170deaad384</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
